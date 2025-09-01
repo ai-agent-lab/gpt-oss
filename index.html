@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Academic Project Page</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Fourth image description.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!-- Paper List -->
+<section class="section" id="PaperList">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Paper List</h2>
+    
+    <!-- LLM Surveys & Reviews -->
+    <h3 class="subtitle is-4">LLM Surveys & Reviews</h3>
+    <ul>
+      <li><em>A survey of large language models</em>, Zhao et al. <a href="https://arxiv.org/abs/2303.18223" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Large language models: A survey</em>, Minaee et al. <a href="https://arxiv.org/abs/2402.06196" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2024</a></li>
+      <li><em>Eight things to know about large language models</em>, Bowman <a href="https://arxiv.org/abs/2304.00612" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Unifying the perspectives of NLP and software engineering: A survey on language models for code</em>, Zhang et al. <a href="https://arxiv.org/abs/2311.07989" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+    </ul>
+
+    <!-- Introduction & Foundation Models -->
+    <h3 class="subtitle is-4">Foundation Models & Scaling Laws</h3>
+    <ul>
+      <li><em>Language models are few-shot learners</em>, Brown et al. <a href="https://arxiv.org/abs/2006.14701" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2020</a></li>
+      <li><em>Language models are unsupervised multitask learners</em>, Radford et al. <a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">OpenAI 2019</a></li>
+      <li><em>Scaling laws for neural language models</em>, Kaplan et al. <a href="https://arxiv.org/abs/2001.08361" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2020</a></li>
+      <li><em>Training compute-optimal large language models</em>, Hoffmann et al. <a href="https://arxiv.org/abs/2203.15556" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Scaling laws for autoregressive generative modeling</em>, Henighan et al. <a href="https://arxiv.org/abs/2010.14701" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2020</a></li>
+      <li><em>Emergent abilities of large language models</em>, Wei et al. <a href="https://arxiv.org/abs/2206.07682" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Are emergent abilities of large language models a mirage?</em>, Schaeffer et al. <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/adc98a266f45005c403b8311ca7e8bd7-Paper-Conference.pdf" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2024</a></li>
+    </ul>
+
+    <!-- Model Architectures -->
+    <h3 class="subtitle is-4">Model Architectures & Mixture of Experts</h3>
+    <ul>
+      <li><em>Attention is all you need</em>, Vaswani et al. <a href="https://arxiv.org/abs/1706.03762" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2017</a></li>
+      <li><em>Outrageously large neural networks: The sparsely-gated mixture-of-experts layer</em>, Shazeer et al. <a href="https://arxiv.org/abs/1701.06538" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">ICLR 2017</a></li>
+      <li><em>Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity</em>, Fedus et al. <a href="https://arxiv.org/abs/2101.03961" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">JMLR 2022</a></li>
+      <li><em>Glam: Efficient scaling of language models with mixture-of-experts</em>, Du et al. <a href="https://arxiv.org/abs/2112.06905" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">ICML 2022</a></li>
+      <li><em>Gshard: Scaling giant models with conditional computation and automatic sharding</em>, Lepikhin et al. <a href="https://arxiv.org/abs/2006.16668" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>Mixture-of-experts with expert choice routing</em>, Zhou et al. <a href="https://arxiv.org/abs/2202.09368" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2022</a></li>
+      <li><em>Lamda: Language models for dialog applications</em>, Thoppilan et al. <a href="https://arxiv.org/abs/2201.08239" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Scaling language models: Methods, analysis & insights from training gopher</em>, Rae et al. <a href="https://arxiv.org/abs/2112.11446" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>Palm: Scaling language modeling with pathways</em>, Chowdhery et al. <a href="https://arxiv.org/abs/2204.02311" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Efficient large scale language modeling with mixtures of experts</em>, Artetxe et al. <a href="https://arxiv.org/abs/2112.10684" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>mT5: A massively multilingual pre-trained text-to-text transformer</em>, Xue et al. <a href="https://arxiv.org/abs/2010.11934" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>Dialogpt: Large-scale generative pre-training for conversational response generation</em>, Zhang et al. <a href="https://arxiv.org/abs/1911.00536" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2020</a></li>
+      <li><em>Lifting the curse of multilinguality by pre-training modular transformers</em>, Pfeiffer et al. <a href="https://arxiv.org/abs/2205.06266" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>A neural network solves, explains, and generates university math problems by program synthesis and few-shot learning at human level</em>, Drori et al. <a href="https://arxiv.org/abs/2112.15594" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">PNAS 2022</a></li>
+      <li><em>The goldilocks of pragmatic understanding: Fine-tuning strategy matters for implicature resolution by llms</em>, Ruis et al. <a href="https://arxiv.org/abs/2210.14986" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2024</a></li>
+      <li><em>llama.cpp: Inference of LLaMA model in pure C/C++</em>, Gerganov <a href="https://github.com/ggerganov/llama.cpp" class="badge" style="background-color: #747d8c; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">GitHub 2023</a></li>
+      <li><em>Parallel machine translation with disentangled context transformer</em>, Kasai et al. <a href="https://arxiv.org/abs/2001.05136" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">ICML 2021</a></li>
+      <li><em>Gpt3. int8 (): 8-bit matrix multiplication for transformers at scale</em>, Dettmers et al. <a href="https://arxiv.org/abs/2208.07339" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2022</a></li>
+      <li><em>Retrieval-augmented generation for knowledge-intensive nlp tasks</em>, Lewis et al. <a href="https://arxiv.org/abs/2005.11401" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2020</a></li>
+      <li><em>Prior and Posterior Networks: A Survey on Evidential Deep Learning Methods For Uncertainty Estimation</em>, Ulmer et al. <a href="https://arxiv.org/abs/2110.03051" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Claude Opus 4.1</em>, Anthropic <a href="https://www.anthropic.com/news/claude-opus-4-1" class="badge" style="background-color: #747d8c; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">Company 2025</a></li>
+    </ul>
+
+    <!-- Contemporary Open Source Models -->
+    <h3 class="subtitle is-4">Contemporary Open Source Models</h3>
+    <ul>
+      <li><em>Llama: Open and efficient foundation language models</em>, Touvron et al. <a href="https://arxiv.org/abs/2302.13971" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Llama 2: Open foundation and fine-tuned chat models</em>, Touvron et al. <a href="https://arxiv.org/abs/2307.09288" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Gemma: Open models based on gemini research and technology</em>, Gemma Team <a href="https://arxiv.org/abs/2403.08295" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2024</a></li>
+      <li><em>Gemini: a family of highly capable multimodal models</em>, Team et al. <a href="https://arxiv.org/abs/2312.11805" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Gemini 2.5: Pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities</em>, Comanici et al. <a href="https://arxiv.org/abs/2507.06261" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2025</a></li>
+      <li><em>DeepSeek LLM: Scaling open-source language models with longtermism</em>, DeepSeek-AI <a href="https://arxiv.org/abs/2401.02954" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2024</a></li>
+      <li><em>Qwen technical report</em>, Bai et al. <a href="https://arxiv.org/abs/2309.16609" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Qwen2.5 technical report</em>, Qwen Team <a href="https://arxiv.org/abs/2409.12186" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2024</a></li>
+      <li><em>Qwen3 Technical Report</em>, Yang et al. <a href="https://arxiv.org/abs/2505.09388" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2025</a></li>
+      <li><em>Phi-3 technical report: A highly capable language model locally on your phone</em>, Abdin et al. <a href="https://arxiv.org/abs/2404.14219" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2024</a></li>
+      <li><em>The falcon series of open language models</em>, Almazrouei et al. <a href="https://arxiv.org/abs/2311.16867" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Mistral 7B</em>, Jiang et al. <a href="https://arxiv.org/abs/2310.06825" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+    </ul>
+
+    <!-- Evaluation & Benchmarking -->
+    <h3 class="subtitle is-4">Evaluation & Benchmarking</h3>
+    <ul>
+      <li><em>Measuring massive multitask language understanding</em>, Hendrycks et al. <a href="https://arxiv.org/abs/2009.03300" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>Holistic evaluation of language models</em>, Liang et al. <a href="https://arxiv.org/abs/2211.09110" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">TMLR 2023</a></li>
+      <li><em>Beyond the imitation game: Quantifying and extrapolating the capabilities of language models</em>, Srivastava et al. <a href="https://arxiv.org/abs/2206.04615" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Judging LLM-as-a-judge with MT-bench and chatbot arena</em>, Zheng et al. <a href="https://arxiv.org/abs/2306.05685" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Training verifiers to solve math word problems</em>, Cobbe et al. <a href="https://arxiv.org/abs/2110.14168" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>Evaluating large language models trained on code</em>, Chen et al. <a href="https://arxiv.org/abs/2107.03374" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>C-eval: A multi-level multi-discipline chinese evaluation suite for foundation models</em>, Huang et al. <a href="https://arxiv.org/abs/2305.08322" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2023</a></li>
+    </ul>
+
+    <!-- Domain-Specific Tasks -->
+    <h3 class="subtitle is-4">Domain-Specific Benchmarks</h3>
+    <ul>
+      <li><em>FinQA: A dataset of numerical reasoning over financial data</em>, Chen et al. <a href="https://arxiv.org/abs/2109.00122" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>What disease does this patient have? a large-scale open domain question answering dataset from medical exams</em>, Jin et al. <a href="https://www.mdpi.com/2076-3417/11/14/6421" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">Applied Sciences 2021</a></li>
+      <li><em>Experimenting with legal ai solutions: The case of question-answering for access to justice</em>, Li et al. <a href="https://arxiv.org/abs/2409.07713" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2024</a></li>
+      <li><em>Crowdsourcing multiple choice science questions</em>, Welbl et al. <a href="https://arxiv.org/abs/1707.06209" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2017</a></li>
+      <li><em>Piqa: Reasoning about physical commonsense in natural language</em>, Bisk et al. <a href="https://arxiv.org/abs/1911.11641" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">AAAI 2020</a></li>
+      <li><em>DialogSum: A real-life scenario dialogue summarization dataset</em>, Chen et al. <a href="https://arxiv.org/abs/2105.06762" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>Benchmarking the performance of large language models in uveitis: a comparative analysis of ChatGPT-3.5, ChatGPT-4.0, Google Gemini, and Anthropic Claude3</em>, Zhao et al. <a href="https://arxiv.org/abs/2501.01234" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2025</a></li>
+      <li><em>Large language models are not fair evaluators</em>, Wang et al. <a href="https://arxiv.org/abs/2305.17926" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>AI and the everything in the whole wide world benchmark</em>, Raji et al. <a href="https://arxiv.org/abs/2111.15366" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2021</a></li>
+      <li><em>Beyond accuracy: Behavioral testing of NLP models with CheckList</em>, Ribeiro et al. <a href="https://aclanthology.org/2020.acl-main.442/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">ACL 2020</a></li>
+      <li><em>The GEM benchmark: Natural language generation, its evaluation and metrics</em>, Gehrmann et al. <a href="https://arxiv.org/abs/2102.01672" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>Xtreme: A massively multilingual multi-task benchmark for evaluating cross-lingual generalisation</em>, Hu et al. <a href="https://arxiv.org/abs/2003.11080" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2020</a></li>
+      <li><em>CRUXEval: A benchmark for code reasoning, understanding and execution</em>, Gu et al. <a href="https://arxiv.org/abs/2401.03065" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2024</a></li>
+      <li><em>Medical Exam Question Answering with Large-scale Reading Comprehension</em>, Zhang et al. <a href="https://arxiv.org/abs/1809.09687" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2018</a></li>
+      <li><em>Measuring and improving compositional generalization in text-to-sql via component alignment</em>, Gan et al. <a href="https://aclanthology.org/2022.naacl-main.281/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NAACL 2022</a></li>
+      <li><em>The benchmark lottery</em>, Dehghani et al. <a href="https://arxiv.org/abs/2107.07002" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>Rethink reporting of evaluation results in AI</em>, Burnell et al. <a href="https://arxiv.org/abs/2211.08571" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>NLP evaluation in trouble: On the need to measure LLM data contamination for each benchmark</em>, Sainz et al. <a href="https://arxiv.org/abs/2310.18018" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+    </ul>
+
+    <!-- Reasoning & Code Generation -->
+    <h3 class="subtitle is-4">Reasoning & Code Generation</h3>
+    <ul>
+      <li><em>Chain-of-thought prompting elicits reasoning in large language models</em>, Wei et al. <a href="https://arxiv.org/abs/2201.11903" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2022</a></li>
+      <li><em>Large language models are zero-shot reasoners</em>, Kojima et al. <a href="https://arxiv.org/abs/2205.11916" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2022</a></li>
+      <li><em>Self-consistency improves chain of thought reasoning in language models</em>, Wang et al. <a href="https://arxiv.org/abs/2203.11171" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Program synthesis with large language models</em>, Austin et al. <a href="https://arxiv.org/abs/2108.07732" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>StarCoder: may the source be with you!</em>, Li et al. <a href="https://arxiv.org/abs/2305.06161" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Codegen: An open large language model for code with multi-turn program synthesis</em>, Nijkamp et al. <a href="https://arxiv.org/abs/2203.13474" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Incoder: A generative model for code infilling and synthesis</em>, Fried et al. <a href="https://arxiv.org/abs/2204.05999" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Solving quantitative reasoning problems with language models</em>, Lewkowycz et al. <a href="https://arxiv.org/abs/2206.14858" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2022</a></li>
+      <li><em>Impact of pretraining term frequencies on few-shot numerical reasoning</em>, Razeghi et al. <a href="https://arxiv.org/abs/2202.07206" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Are NLP models really able to solve simple math word problems?</em>, Patel et al. <a href="https://arxiv.org/abs/2103.07191" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>Inverse scaling can become U-shaped</em>, Wei et al. <a href="https://arxiv.org/abs/2211.02011" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Inverse scaling: When bigger isn't better</em>, McKenzie et al. <a href="https://arxiv.org/abs/2306.09479" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+    </ul>
+
+    <!-- Statistical Analysis & Methodology -->
+    <h3 class="subtitle is-4">Statistical Analysis & Methodology</h3>
+    <ul>
+      <li><em>The hitchhiker's guide to testing statistical significance in natural language processing</em>, Dror et al. <a href="https://aclanthology.org/P18-1128/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">ACL 2018</a></li>
+      <li><em>Time for a change: a tutorial for comparing multiple classifiers through Bayesian analysis</em>, Benavoli et al. <a href="https://jmlr.org/papers/v18/16-305.html" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">JMLR 2017</a></li>
+      <li><em>With Little Power Comes Great Responsibility</em>, Card et al. <a href="https://aclanthology.org/2020.emnlp-main.745/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">EMNLP 2020</a></li>
+      <li><em>An introduction to the bootstrap</em>, Efron & Tibshirani <span class="badge" style="background-color: #747d8c; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">Book 1994</span></li>
+      <li><em>Statistical power analysis for the behavioral sciences</em>, Cohen <span class="badge" style="background-color: #747d8c; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">Book 1988</span></li>
+      <li><em>A statistical analysis of summarization evaluation metrics using resampling methods</em>, Deutsch et al. <a href="https://aclanthology.org/2021.naacl-main.287/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NAACL 2021</a></li>
+      <li><em>Statistical significance tests for machine translation evaluation</em>, Koehn <a href="https://aclanthology.org/W04-3250/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">WMT 2004</a></li>
+      <li><em>Controlling the false discovery rate: a practical and powerful approach to multiple testing</em>, Benjamini & Hochberg <a href="https://www.jstor.org/stable/2346101" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">JRSS-B 1995</a></li>
+      <li><em>Improving reproducibility in machine learning research: a report from the NeurIPS 2019 reproducibility program</em>, Pineau et al. <a href="https://jmlr.org/papers/v22/20-303.html" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">JMLR 2021</a></li>
+      <li><em>Show your work: Improved reporting of experimental results</em>, Dodge et al. <a href="https://aclanthology.org/D19-1224/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">EMNLP 2019</a></li>
+      <li><em>Reporting score distributions makes a difference: Performance study of LSTM-networks for sequence tagging</em>, Reimers & Gurevych <a href="https://aclanthology.org/D17-1035/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">EMNLP 2017</a></li>
+      <li><em>New effect size rules of thumb</em>, Sawilowsky <a href="https://www.tandfonline.com/doi/abs/10.1080/00220970903292900" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">JEP 2009</a></li>
+      <li><em>The measurement of observer agreement for categorical data</em>, Landis & Koch <a href="https://www.jstor.org/stable/2529310" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">Biometrics 1977</a></li>
+      <li><em>Note on the sampling error of the difference between correlated proportions or percentages</em>, McNemar <a href="https://link.springer.com/article/10.1007/BF02295996" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">Psychometrika 1947</a></li>
+      <li><em>Teoria statistica delle classi e calcolo delle probabilita</em>, Bonferroni <span class="badge" style="background-color: #747d8c; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">Book 1936</span></li>
+      <li><em>Qa dataset explosion: A taxonomy of nlp resources for question answering and reading comprehension</em>, Rogers et al. <a href="https://arxiv.org/abs/2301.05020" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+    </ul>
+
+    <!-- Efficiency & Optimization -->
+    <h3 class="subtitle is-4">Efficiency & Environmental Impact</h3>
+    <ul>
+      <li><em>Energy and policy considerations for deep learning in NLP</em>, Strubell et al. <a href="https://aclanthology.org/P19-1355/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">ACL 2019</a></li>
+      <li><em>Carbon emissions and large neural network training</em>, Patterson et al. <a href="https://arxiv.org/abs/2104.10350" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2021</a></li>
+      <li><em>Towards the systematic reporting of the energy and carbon footprints of machine learning</em>, Henderson et al. <a href="https://jmlr.org/papers/v21/20-312.html" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">JMLR 2020</a></li>
+      <li><em>Efficiently scaling transformer inference</em>, Pope et al. <a href="https://proceedings.mlsys.org/paper_files/paper/2023/file/523f87e9d08e6071a3bbd150e6da40fb-Paper-mlsys2023.pdf" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">MLSys 2023</a></li>
+      <li><em>Scale efficiently: Insights from pretraining and finetuning transformers</em>, Tay et al. <a href="https://arxiv.org/abs/2109.10686" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Green ai</em>, Schwartz et al. <a href="https://cacm.acm.org/magazines/2020/12/248800-green-ai/fulltext" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">CACM 2020</a></li>
+    </ul>
+
+    <!-- Multilingual & Cross-lingual Models -->
+    <h3 class="subtitle is-4">Multilingual & Cross-lingual Models</h3>
+    <ul>
+      <li><em>Language models are few-shot multilingual learners</em>, Winata et al. <a href="https://aclanthology.org/2021.naacl-main.410/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NAACL 2021</a></li>
+      <li><em>Unsupervised cross-lingual representation learning at scale</em>, Conneau et al. <a href="https://aclanthology.org/2020.acl-main.747/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">ACL 2020</a></li>
+      <li><em>Crosslingual generalization through multitask finetuning</em>, Muennighoff et al. <a href="https://arxiv.org/abs/2211.01786" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+    </ul>
+
+    <!-- Dialogue & Conversational AI -->
+    <h3 class="subtitle is-4">Dialogue & Conversational AI</h3>
+    <ul>
+      <li><em>Recipes for building an open-domain chatbot</em>, Roller et al. <a href="https://aclanthology.org/2021.eacl-main.24/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">EACL 2021</a></li>
+      <li><em>What makes a good conversation? How controllable attributes affect human judgments</em>, See et al. <a href="https://aclanthology.org/N19-1170/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NAACL 2019</a></li>
+    </ul>
+
+    <!-- Ethics, Bias & Environmental Impact -->
+    <h3 class="subtitle is-4">Ethics & Bias</h3>
+    <ul>
+      <li><em>On the dangers of stochastic parrots: Can language models be too big?</em>, Bender et al. <a href="https://dl.acm.org/doi/10.1145/3442188.3445922" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">FAccT 2021</a></li>
+      <li><em>Data contamination: From memorization to exploitation</em>, Magar & Schwartz <a href="https://arxiv.org/abs/2203.08242" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Evading data contamination detection: Exploring test-time preprocessing methods</em>, Dekoninck et al. <a href="https://arxiv.org/abs/2405.20832" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2024</a></li>
+      <li><em>Multimodal datasets: misogyny, pornography, and malignant stereotypes</em>, Birhane et al. <a href="https://arxiv.org/abs/2110.01963" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2021</a></li>
+    </ul>
+
+    <!-- Theoretical Analysis & Understanding -->
+    <h3 class="subtitle is-4">Theoretical Analysis & Understanding</h3>
+    <ul>
+      <li><em>Speak, memory: An archaeology of books known to chatgpt/gpt-4</em>, Chang et al. <a href="https://arxiv.org/abs/2305.00118" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>Faith and fate: Limits of transformers on compositionality</em>, Dziri et al. <a href="https://arxiv.org/abs/2305.18654" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2023</a></li>
+      <li><em>How much knowledge can you pack into the parameters of a language model?</em>, Roberts et al. <a href="https://aclanthology.org/2020.emnlp-main.437/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">EMNLP 2020</a></li>
+      <li><em>Large language models struggle to learn long-tail knowledge</em>, Kandpal et al. <a href="https://arxiv.org/abs/2211.08411" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2023</a></li>
+      <li><em>A surprisingly robust trick for the winograd schema challenge</em>, Camburu et al. <a href="https://aclanthology.org/P19-1478/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">ACL 2019</a></li>
+      <li><em>The curious case of neural text degeneration</em>, Holtzman et al. <a href="https://arxiv.org/abs/1904.09751" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">ICLR 2020</a></li>
+      <li><em>Neural text generation with unlikelihood training</em>, Welleck et al. <a href="https://arxiv.org/abs/1908.04319" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">ICLR 2020</a></li>
+      <li><em>Locally typical sampling</em>, Meister et al. <a href="https://aclanthology.org/2023.tacl-1.17/" class="badge" style="background-color: #3742fa; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">TACL 2023</a></li>
+      <li><em>Information-theoretic probing for linguistic structure</em>, Pimentel et al. <a href="https://aclanthology.org/2020.acl-main.420/" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">ACL 2020</a></li>
+      <li><em>Predictability and surprise in large generative models</em>, Ganguli et al. <a href="https://arxiv.org/abs/2202.07785" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>A systematic evaluation of large language models of code</em>, Xu et al. <a href="https://arxiv.org/abs/2202.13169" class="badge" style="background-color: #ff4757; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">arXiv 2022</a></li>
+      <li><em>Mind the gap: Understanding the modality gap in multi-modal contrastive representation learning</em>, Liang et al. <a href="https://arxiv.org/abs/2203.02053" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2022</a></li>
+      <li><em>Well-tuned simple nets excel on tabular datasets</em>, Kadra et al. <a href="https://arxiv.org/abs/2106.11189" class="badge" style="background-color: #2ed573; color: white; padding: 2px 8px; border-radius: 12px; text-decoration: none; font-size: 0.8em;">NeurIPS 2021</a></li>
+    </ul>
+  </div>
+</section>
+<!-- End Paper List -->
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{bi2025gptossgoodcomprehensiveevaluation,
+        title={Is GPT-OSS Good? A Comprehensive Evaluation of OpenAI's Latest Open Source Models}, 
+        author={Ziqian Bi and Keyu Chen and Chiung-Yi Tseng and Danyang Zhang and Tianyang Wang and Hongying Luo and Lu Chen and Junming Huang and Jibin Guan and Junfeng Hao and Junhao Song},
+        year={2025},
+        eprint={2508.12461},
+        archivePrefix={arXiv},
+        primaryClass={cs.CL},
+        url={https://arxiv.org/abs/2508.12461}, 
+  }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
