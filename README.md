@@ -10,11 +10,11 @@
 
 **Affiliations:**
 - ¹ AI Agent Lab, Vokram Group, UK
-- ² Purdue University, US
-- ³ Georgia Institute of Technology, US
-- ⁴ LuxMuse AI, US
-- ⁵ ByteDance Inc, US
-- ⁶ University of Minnesota, US
+- ² Purdue University, USA
+- ³ Georgia Institute of Technology, USA
+- ⁴ LuxMuse AI, USA
+- ⁵ ByteDance Inc, USA
+- ⁶ University of Minnesota, USA
 - ⁷ Imperial College London, UK
 
 ## Abstract
