@@ -6,9 +6,10 @@
 
 **Authors:** Ziqian Bi¹'²*, Keyu Chen¹'³*, Chiung-Yi Tseng¹'⁴*, Danyang Zhang¹'⁵*, Tianyang Wang¹, Hongying Luo¹, Lu Chen¹, Junming Huang¹, Jibin Guan⁶, Junfeng Hao⁶, Junhao Song⁷†
 
-<sup>*</sup>Indicates Equal Contribution, <sup>†</sup>Corresponding Author
+`<sup>`*`</sup>`Indicates Equal Contribution, `<sup>`†`</sup>`Corresponding Author
 
 **Affiliations:**
+
 - ¹ AI Agent Lab, Vokram Group, UK
 - ² Purdue University, USA
 - ³ Georgia Institute of Technology, USA
@@ -24,30 +25,37 @@ In August 2025, OpenAI released GPT-OSS models, its first open weight large lang
 ## Research Figures
 
 ### Figure 1: Performance Rankings
+
 ![Performance Rankings](static/images/img/figure_1_overall_ranking.png)
 *Performance rankings across benchmark categories using general prompts. Error bars represent 95% confidence intervals.*
 
 ### Figure 2: Performance Heatmap
+
 ![Performance Heatmap](static/images/img/figure_2_performance_heatmap.png)
 *Performance heatmap across model-benchmark combinations. Darker blue indicates higher accuracy.*
 
 ### Figure 3: Task Categories
+
 ![Task Categories](static/images/img/figure_3_task_categories.png)
 *Performance distribution across evaluation categories. Analysis methodology follows BIG-bench protocols.*
 
 ### Figure 4: Parameter-Performance Relationship
+
 ![Parameter-Performance](static/images/img/figure_4_model_size_comparison.png)
 *Parameter-performance relationship. The non-monotonic scaling observed in GPT-OSS variants contradicts established scaling laws.*
 
 ### Figure 5: GPT-OSS Detailed Comparison
+
 ![GPT-OSS Detailed](static/images/img/figure_5_gpt_oss_detailed.png)
 *Direct performance comparison between GPT-OSS variants across all evaluation benchmarks.*
 
 ### Figure 6: Multi-dimensional Performance
+
 ![Multi-dimensional Performance](static/images/img/figure_6_radar_chart.png)
 *Multi-dimensional performance comparison across eight evaluated models. GPT-OSS models show middle-tier performance.*
 
 ### Figure 7: Token Count Distribution
+
 ![Token Distribution](static/images/img/figure_7_token_histograms.png)
 *Token count distribution across all models on aggregated datasets. GPT-OSS models exhibit notably concise outputs.*
 
@@ -76,12 +84,14 @@ In August 2025, OpenAI released GPT-OSS models, its first open weight large lang
 ## References & Related Work
 
 ### LLM Surveys & Reviews
+
 - *A survey of large language models*, Zhao et al. [[arXiv 2023]](https://arxiv.org/abs/2303.18223)
 - *Large language models: A survey*, Minaee et al. [[arXiv 2024]](https://arxiv.org/abs/2402.06196)
 - *Eight things to know about large language models*, Bowman [[arXiv 2023]](https://arxiv.org/abs/2304.00612)
 - *Unifying the perspectives of NLP and software engineering: A survey on language models for code*, Zhang et al. [[arXiv 2023]](https://arxiv.org/abs/2311.07989)
 
 ### Foundation Models & Scaling Laws
+
 - *Language models are few-shot learners*, Brown et al. [[arXiv 2020]](https://arxiv.org/abs/2006.14701)
 - *Language models are unsupervised multitask learners*, Radford et al. [[OpenAI 2019]](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 - *Scaling laws for neural language models*, Kaplan et al. [[arXiv 2020]](https://arxiv.org/abs/2001.08361)
@@ -91,6 +101,7 @@ In August 2025, OpenAI released GPT-OSS models, its first open weight large lang
 - *Are emergent abilities of large language models a mirage?*, Schaeffer et al. [[NeurIPS 2024]](https://proceedings.neurips.cc/paper_files/paper/2023/file/adc98a266f45005c403b8311ca7e8bd7-Paper-Conference.pdf)
 
 ### Model Architectures & Mixture of Experts
+
 - *Attention is all you need*, Vaswani et al. [[NeurIPS 2017]](https://arxiv.org/abs/1706.03762)
 - *Outrageously large neural networks: The sparsely-gated mixture-of-experts layer*, Shazeer et al. [[ICLR 2017]](https://arxiv.org/abs/1701.06538)
 - *Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity*, Fedus et al. [[JMLR 2022]](https://arxiv.org/abs/2101.03961)
@@ -114,6 +125,7 @@ In August 2025, OpenAI released GPT-OSS models, its first open weight large lang
 - *Claude Opus 4.1*, Anthropic [[Company 2025]](https://www.anthropic.com/news/claude-opus-4-1)
 
 ### Contemporary Open Source Models
+
 - *Llama: Open and efficient foundation language models*, Touvron et al. [[arXiv 2023]](https://arxiv.org/abs/2302.13971)
 - *Llama 2: Open foundation and fine-tuned chat models*, Touvron et al. [[arXiv 2023]](https://arxiv.org/abs/2307.09288)
 - *Gemma: Open models based on gemini research and technology*, Gemma Team [[arXiv 2024]](https://arxiv.org/abs/2403.08295)
@@ -128,6 +140,7 @@ In August 2025, OpenAI released GPT-OSS models, its first open weight large lang
 - *Mistral 7B*, Jiang et al. [[arXiv 2023]](https://arxiv.org/abs/2310.06825)
 
 ### Evaluation & Benchmarking
+
 - *Measuring massive multitask language understanding*, Hendrycks et al. [[arXiv 2021]](https://arxiv.org/abs/2009.03300)
 - *Holistic evaluation of language models*, Liang et al. [[TMLR 2023]](https://arxiv.org/abs/2211.09110)
 - *Beyond the imitation game: Quantifying and extrapolating the capabilities of language models*, Srivastava et al. [[arXiv 2022]](https://arxiv.org/abs/2206.04615)
@@ -137,6 +150,7 @@ In August 2025, OpenAI released GPT-OSS models, its first open weight large lang
 - *C-eval: A multi-level multi-discipline chinese evaluation suite for foundation models*, Huang et al. [[NeurIPS 2023]](https://arxiv.org/abs/2305.08322)
 
 ### Domain-Specific Benchmarks
+
 - *FinQA: A dataset of numerical reasoning over financial data*, Chen et al. [[arXiv 2021]](https://arxiv.org/abs/2109.00122)
 - *What disease does this patient have? a large-scale open domain question answering dataset from medical exams*, Jin et al. [[Applied Sciences 2021]](https://www.mdpi.com/2076-3417/11/14/6421)
 - *Experimenting with legal ai solutions: The case of question-answering for access to justice*, Li et al. [[arXiv 2024]](https://arxiv.org/abs/2409.07713)
@@ -157,6 +171,7 @@ In August 2025, OpenAI released GPT-OSS models, its first open weight large lang
 - *NLP evaluation in trouble: On the need to measure LLM data contamination for each benchmark*, Sainz et al. [[arXiv 2023]](https://arxiv.org/abs/2310.18018)
 
 ### Reasoning & Code Generation
+
 - *Chain-of-thought prompting elicits reasoning in large language models*, Wei et al. [[NeurIPS 2022]](https://arxiv.org/abs/2201.11903)
 - *Large language models are zero-shot reasoners*, Kojima et al. [[NeurIPS 2022]](https://arxiv.org/abs/2205.11916)
 - *Self-consistency improves chain of thought reasoning in language models*, Wang et al. [[arXiv 2023]](https://arxiv.org/abs/2203.11171)
@@ -171,6 +186,7 @@ In August 2025, OpenAI released GPT-OSS models, its first open weight large lang
 - *Inverse scaling: When bigger isn't better*, McKenzie et al. [[arXiv 2023]](https://arxiv.org/abs/2306.09479)
 
 ### Statistical Analysis & Methodology
+
 - *The hitchhiker's guide to testing statistical significance in natural language processing*, Dror et al. [[ACL 2018]](https://aclanthology.org/P18-1128/)
 - *Time for a change: a tutorial for comparing multiple classifiers through Bayesian analysis*, Benavoli et al. [[JMLR 2017]](https://jmlr.org/papers/v18/16-305.html)
 - *With Little Power Comes Great Responsibility*, Card et al. [[EMNLP 2020]](https://aclanthology.org/2020.emnlp-main.745/)
@@ -189,6 +205,7 @@ In August 2025, OpenAI released GPT-OSS models, its first open weight large lang
 - *Qa dataset explosion: A taxonomy of nlp resources for question answering and reading comprehension*, Rogers et al. [[arXiv 2023]](https://arxiv.org/abs/2301.05020)
 
 ### Efficiency & Environmental Impact
+
 - *Energy and policy considerations for deep learning in NLP*, Strubell et al. [[ACL 2019]](https://aclanthology.org/P19-1355/)
 - *Carbon emissions and large neural network training*, Patterson et al. [[arXiv 2021]](https://arxiv.org/abs/2104.10350)
 - *Towards the systematic reporting of the energy and carbon footprints of machine learning*, Henderson et al. [[JMLR 2020]](https://jmlr.org/papers/v21/20-312.html)
@@ -197,21 +214,25 @@ In August 2025, OpenAI released GPT-OSS models, its first open weight large lang
 - *Green ai*, Schwartz et al. [[CACM 2020]](https://cacm.acm.org/magazines/2020/12/248800-green-ai/fulltext)
 
 ### Multilingual & Cross-lingual Models
+
 - *Language models are few-shot multilingual learners*, Winata et al. [[NAACL 2021]](https://aclanthology.org/2021.naacl-main.410/)
 - *Unsupervised cross-lingual representation learning at scale*, Conneau et al. [[ACL 2020]](https://aclanthology.org/2020.acl-main.747/)
 - *Crosslingual generalization through multitask finetuning*, Muennighoff et al. [[arXiv 2023]](https://arxiv.org/abs/2211.01786)
 
 ### Dialogue & Conversational AI
+
 - *Recipes for building an open-domain chatbot*, Roller et al. [[EACL 2021]](https://aclanthology.org/2021.eacl-main.24/)
 - *What makes a good conversation? How controllable attributes affect human judgments*, See et al. [[NAACL 2019]](https://aclanthology.org/N19-1170/)
 
 ### Ethics & Bias
+
 - *On the dangers of stochastic parrots: Can language models be too big?*, Bender et al. [[FAccT 2021]](https://dl.acm.org/doi/10.1145/3442188.3445922)
 - *Data contamination: From memorization to exploitation*, Magar & Schwartz [[arXiv 2022]](https://arxiv.org/abs/2203.08242)
 - *Evading data contamination detection: Exploring test-time preprocessing methods*, Dekoninck et al. [[arXiv 2024]](https://arxiv.org/abs/2405.20832)
 - *Multimodal datasets: misogyny, pornography, and malignant stereotypes*, Birhane et al. [[NeurIPS 2021]](https://arxiv.org/abs/2110.01963)
 
 ### Theoretical Analysis & Understanding
+
 - *Speak, memory: An archaeology of books known to chatgpt/gpt-4*, Chang et al. [[arXiv 2023]](https://arxiv.org/abs/2305.00118)
 - *Faith and fate: Limits of transformers on compositionality*, Dziri et al. [[NeurIPS 2023]](https://arxiv.org/abs/2305.18654)
 - *How much knowledge can you pack into the parameters of a language model?*, Roberts et al. [[EMNLP 2020]](https://aclanthology.org/2020.emnlp-main.437/)
